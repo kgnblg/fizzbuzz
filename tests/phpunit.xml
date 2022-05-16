@@ -1,0 +1,9 @@
+<phpunit bootstrap="vendor/autoload.php">
+    <testsuites>
+        <testsuite name="fizzbuzz">
+            <file>tests/DivideRuleTest.php</file>
+            <file>tests/NumberElementTest.php</file>
+            <file>tests/NumberElementFactoryTest.php</file>
+        </testsuite>
+    </testsuites>
+</phpunit>
